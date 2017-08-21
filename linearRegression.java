@@ -50,9 +50,7 @@ public class LinReg
         sv2=sv*sx2/(n*xx);
         System.out.println("Standard Error of Beta2:"+Math.sqrt(sv2));
         
-        System.out.println("Total Sum of Squares:"+yy);
-        System.out.println("Sum of the Squared Residuals:"+r);
-        System.out.println("Sum of Squares Regression:"+ss);
-    
+        System.out.println("Total Sum of Squares:"+yy+"\nSum of the Squared Residuals:"+r+"\nSum of Squares Regression:"+ss);
+      
     }
 }
